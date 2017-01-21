@@ -2,7 +2,8 @@ $(document).ready(function() {
 	if ($('#results').css('display','none')) {
 		$('.footer').css({'position': 'fixed', 'bottom': '0', 'left': '0'})
 	}
-	
+});//document ready	
+
 	$('#input').keyup(function(e) {
 		var textOut = document.getElementsByTagName("input")[0].value;
 		if (e.which == 13) {
@@ -46,7 +47,7 @@ $(document).ready(function() {
 			});//ajax
 		}//if key is enter
 	});//keyup function
+	
 	$('.title').hover(function() {
 		$(this).css('color', '#5BC0DE');
 	});
-});//document ready
