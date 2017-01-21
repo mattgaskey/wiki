@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1">
+	<title>Wittle Wiki Viewer</title>
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet"> 
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+	<script src="https://use.fontawesome.com/a5b4e88d2d.js"></script>
+	<link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+	<script src="js.js"></script>
+	<link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+	<div id="search" class="container-fluid search">
+		<input id="input" type="text" name="search" placeholder="&#xf002; Search Wikipedia">
+		<div class="container random">
+			<div class="row">
+				<div class="col-xs-12">
+					<a href="https://en.wikipedia.org/wiki/Special:Random" target="_blank">or go out on a limb and try a random article</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="results">
+		<h4>Check out these related articles:</h4>
+		<div class="wiki">
+			<a href="#" id="res0" ></a>
+			<div class="container">
+				<div class="row">
+					<div class="col-xs-4">
+						<span id="title0" class="title"></span>
+					</div>
+					<div class="col-xs-8">
+						<span id="snippet0" class="snippet"></span>
+					</div>
+				</div>
+			</div>
+		</div><!--res0-->
+		<div class="wiki">
+			<a href="#" id="res1"></a>
+			<div class="container">
+				<div class="row">
+					<div class="col-xs-4">
+						<span id="title1" class="title"></span>
+					</div>
+					<div class="col-xs-8">
+						<span id="snippet1" class="snippet"></span>
+					</div>
+				</div>
+			</div>
+		</div><!--res1-->
+		<div class="wiki">
+			<a href="#" id="res2"></a>
+			<div class="container">
+				<div class="row">
+					<div class="col-xs-4">
+						<span id="title2" class="title"></span>
+					</div>
+					<div class="col-xs-8">
+						<span id="snippet2" class="snippet"></span>
+					</div>
+				</div>
+			</div>
+		</div><!--res2-->
+		<div class="wiki">
+			<a href="#" id="res3"></a>
+			<div class="container">
+				<div class="row">
+					<div class="col-xs-4">
+						<span id="title3" class="title"></span>
+					</div>
+					<div class="col-xs-8">
+						<span id="snippet3" class="snippet"></span>
+					</div>
+				</div>
+			</div>
+		</div><!--res3-->
+		<div class="wiki">
+			<a href="#" id="res4"></a>
+			<div class="container">
+				<div class="row">
+					<div class="col-xs-4">
+						<span id="title4" class="title"></span>
+					</div>
+					<div class="col-xs-8">
+						<span id="snippet4" class="snippet"></span>
+					</div>
+				</div>
+			</div>
+		</div><!--res4-->
+		<div class="wiki">
+			<a href="#" id="res5"></a>
+			<div class="container">
+				<div class="row">
+					<div class="col-xs-4">
+						<span id="title5" class="title"></span>
+					</div>
+					<div class="col-xs-8">
+						<span id="snippet5" class="snippet"></span>
+					</div>
+				</div>
+			</div>
+		</div><!--res5-->
+		<div class="wiki">
+			<a href="#" id="res6"></a>
+			<div class="container">
+				<div class="row">
+					<div class="col-xs-4">
+						<span id="title6" class="title"></span>
+					</div>
+					<div class="col-xs-8">
+						<span id="snippet6" class="snippet"></span>
+					</div>
+				</div>
+			</div>
+		</div><!--res6-->
+		<div class="wiki">
+			<a href="#" id="res7"></a>
+			<div class="container">
+				<div class="row">
+					<div class="col-xs-4">
+						<span id="title7" class="title"></span>
+					</div>
+					<div class="col-xs-8">
+						<span id="snippet7" class="snippet"></span>
+					</div>
+				</div>
+			</div>
+		</div><!--res7-->
+		<div class="wiki">
+			<a href="#" id="res8"></a>
+			<div class="container">
+				<div class="row">
+					<div class="col-xs-4">
+						<span id="title8" class="title"></span>
+					</div>
+					<div class="col-xs-8">
+						<span id="snippet8" class="snippet"></span>
+					</div>
+				</div>
+			</div>
+		</div><!--res8-->
+		<div class="wiki">
+			<a href="#" id="res9"></a>
+			<div class="container">
+				<div class="row">
+					<div class="col-xs-4">
+						<span id="title9" class="title"></span>
+					</div>
+					<div class="col-xs-8">
+						<span id="snippet9" class="snippet"></span>
+					</div>
+				</div>
+			</div>
+		</div><!--res9-->
+	</div><!--results-->
+	<div style="clear: both"></div>
+	<div class="container footer">
+		<h5>Created and coded by <a href="https://github.com/mattgaskey" target="_blank">Matt Gaskey</a></h5>
+	</div>
+</body>
