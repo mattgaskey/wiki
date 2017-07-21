@@ -2,7 +2,6 @@ $(document).ready(function() {
 	if ($('#results').css('display','none')) {
 		$('.footer').css({'position': 'fixed', 'bottom': '0', 'left': '0'})
 	}
-});//document ready	
 
 	$('#input').keyup(function(e) {
 		var textOut = document.getElementsByTagName("input")[0].value;
@@ -51,3 +50,5 @@ $(document).ready(function() {
 	$('.title').hover(function() {
 		$(this).css('color', '#5BC0DE');
 	});
+
+});//document ready	
